@@ -1,0 +1,61 @@
+
+.loginform{
+    width: 400px;
+    
+    margin: auto;
+    padding: 10px;
+    margin-top: 250px;
+    .headsection{
+        background-color: rgb(0, 51, 128);
+        color: white;
+        padding: 20px;
+        margin: auto;
+        text-align: center;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+    }
+    .dataSec{
+        padding: 10px 30px 50px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        background-color: white;
+        border-bottom-left-radius:5px ;
+        border-bottom-right-radius:5px ;
+        display: flex;
+        flex-direction: column;
+        input{
+            margin: 15px auto;
+            width: 100%;
+            border-radius: 5px;
+            padding: 8px;
+            border: solid gray 1px;
+            outline: none;
+        }
+        button{
+            margin-top: 10px;
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+            background-color: rgb(94, 201, 94);
+            &:hover{
+                background-color: rgb(57, 202, 57);
+                color: white;
+                font-weight: 500;
+            }
+        }
+        
+        .operations{
+            display: flex;
+            justify-content: space-between;
+            padding: 15px 0px;
+            a{
+                text-decoration: none;
+                color: rgb(2, 72, 202);
+                &:hover{
+                    color:rgb(5, 91, 221);
+                    transform: scale(1.01);
+                }
+            }
+        }
+    }
+    
+}
