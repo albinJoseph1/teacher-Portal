@@ -22,7 +22,7 @@ function table(){
                 var tableBody = $('#tableBody');
                 tableBody.empty();
 
-                tableBody.append('<th>Roll Number</th><th>Name</th><td id="subject1-header">Maths</td><td id="subject2-header">Science</td><td id="subject3-header">Physics</td>');
+                //tableBody.append('<th>Roll Number</th><th>Name</th><td id="subject1-header">Maths</td><td id="subject2-header">Science</td><td id="subject3-header">Physics</td>');
     
                 response.forEach(function(row) {
                     tableBody.append('<tr><td>' + row.Rollnum + '</td><td>' + row.name + '</td><td class="maths">' + row.sub1 + '</td><td class="science">' + row.sub2 + '</td><td class="physics">' + row.sub3 + '</td></tr>');
